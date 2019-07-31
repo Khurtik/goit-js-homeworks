@@ -222,7 +222,6 @@
 
 // console.log(message);
 
-
 // 'use strict';
 
 // let inNumber = prompt('Ввведите число');
@@ -299,3 +298,42 @@
 //   userList.push(user);
 //   alert('User was added');
 // }
+
+// function expression
+
+// const userList = ['admin', 'manager', 'employe'];
+
+// const isUserPresent = function(user, listOfUser) {
+//   return listOfUser.includes(user);
+// };
+
+// console.log(getAllUserNames(userList));
+
+// // function declaration
+
+// function getAllUserNames(list) {
+//   let result = '';
+//   for (let user of list) {
+//     result = result + user + ' ';
+//   }
+//   return result;
+// }
+
+// const calculateSquare = function(width = 50, height = 100) {
+//   console.log(Array.from(arguments));
+//   return width * height;
+// };
+
+// const square = calculateSquare(500, 500, 600);
+
+// console.log(square);
+
+const sumAllArguments = function() {
+  let sum = 0;
+  for (let i = 0; i < arguments.length; i++) {
+    sum = sum + arguments[i];
+  }
+  return sum;
+};
+const sum = sumAllArguments(50, 40, 30, 20, 10);
+console.log(sum);
