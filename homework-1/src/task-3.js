@@ -1,17 +1,17 @@
-// 'use strict';
+'use strict';
 
-// const ADMIN_PASSWORD = 'jqueryismyjam';
+const ADMIN_PASSWORD = 'jqueryismyjam';
 
-// const inUserPassword = prompt('Введите пароль');
+const inUserPassword = prompt('Введите пароль');
 
-// let message;
+let message;
 
-// if (inUserPassword === null) {
-//   message = 'Отменено пользователем!';
-// } else if (inUserPassword === 'jqueryismyjam') {
-//   message = 'Добро пожаловать!';
-// } else {
-//   message = 'Доступ запрещен, неверный пароль!';
-// }
+if (inUserPassword === null) {
+  message = 'Отменено пользователем!';
+} else if (inUserPassword === 'jqueryismyjam') {
+  message = 'Добро пожаловать!';
+} else {
+  message = 'Доступ запрещен, неверный пароль!';
+}
 
-// alert(message);
+alert(message);

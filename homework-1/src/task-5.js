@@ -1,43 +1,43 @@
-// 'use strict';
+'use strict';
 
-// let inCountry = prompt('В какую страну вы хотите оформить доставку?');
-// let nameCountry;
-// let cost;
+let inCountry = prompt('В какую страну вы хотите оформить доставку?');
+let nameCountry;
+let cost;
 
-// switch (inCountry.toLowerCase()) {
-//   case 'china':
-//     cost = 100;
-//     nameCountry = 'China';
+switch (inCountry.toLowerCase()) {
+  case 'china':
+    cost = 100;
+    nameCountry = 'China';
 
-//     break;
+    break;
 
-//   case 'chile':
-//     cost = 250;
-//     nameCountry = 'Chile';
+  case 'chile':
+    cost = 250;
+    nameCountry = 'Chile';
 
-//     break;
+    break;
 
-//   case 'australia':
-//     cost = 170;
-//     nameCountry = 'Australia';
+  case 'australia':
+    cost = 170;
+    nameCountry = 'Australia';
 
-//     break;
+    break;
 
-//   case 'india':
-//     cost = 80;
-//     nameCountry = 'India';
+  case 'india':
+    cost = 80;
+    nameCountry = 'India';
 
-//     break;
+    break;
 
-//   case 'jamaica':
-//     cost = 120;
-//     nameCountry = 'Jamaica';
+  case 'jamaica':
+    cost = 120;
+    nameCountry = 'Jamaica';
 
-//     break;
-// }
+    break;
+}
 
-// if (nameCountry != undefined) {
-//   console.log(`Доставка в ${nameCountry} будет стоить ${cost} кредитов`);
-// } else {
-//   alert('В вашей стране доставка не доступна');
-// }
+if (nameCountry != undefined) {
+  console.log(`Доставка в ${nameCountry} будет стоить ${cost} кредитов`);
+} else {
+  alert('В вашей стране доставка не доступна');
+}

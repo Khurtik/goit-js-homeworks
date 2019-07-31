@@ -1,20 +1,20 @@
-// 'use strict';
+'use strict';
 
-// let total = 0;
-// let input;
+let total = 0;
+let input;
 
-// while (true) {
-//   input = prompt('Ввведите число');
+while (true) {
+  input = prompt('Ввведите число');
 
-//   if (input === null) {
-//     break;
-//   }
+  if (input === null) {
+    break;
+  }
 
-//   input = Number(input);
+  input = Number(input);
 
-//   total += input;
+  total += input;
 
-//   if (total) {
-//     alert(`Общая сумма чисел равна ${total}`);
-//   }
-// }
+  if (total) {
+    alert(`Общая сумма чисел равна ${total}`);
+  }
+}
