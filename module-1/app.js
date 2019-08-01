@@ -328,12 +328,37 @@
 
 // console.log(square);
 
-const sumAllArguments = function() {
-  let sum = 0;
-  for (let i = 0; i < arguments.length; i++) {
-    sum = sum + arguments[i];
+// const sumAllArguments = function() {
+//   let sum = 0;
+//   for (let i = 0; i < arguments.length; i++) {
+//     sum = sum + arguments[i];
+//   }
+//   return sum;
+// };
+// const sum = sumAllArguments(50, 40, 30, 20, 10);
+// console.log(sum);
+
+// let a = prompt(`Введите первое число`);
+
+// let b = prompt(`Введите второе число`);
+
+// function plusValue(a, b) {
+//   return Number(a) + Number(b);
+// }
+
+// console.log(plusValue(a, b));
+
+const userList = ['Cat', 'Dog', 'Mouse'];
+
+const user = prompt('enter userName');
+function addUser() {
+  if (userList.includes(user)) {
+    alert('User already exest');
+  } else {
+    userList.push(user);
+    alert('User was added');
   }
-  return sum;
-};
-const sum = sumAllArguments(50, 40, 30, 20, 10);
-console.log(sum);
+  return userList;
+}
+
+console.log(addUser());

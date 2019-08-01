@@ -3,18 +3,12 @@
 let total = 0;
 let input;
 
-while (true) {
+do {
   input = prompt('Ввведите число');
 
-  if (input === null) {
-    break;
+  if (input !== null) {
+    total += Number(input);
   }
+} while (input !== null);
 
-  input = Number(input);
-
-  total += input;
-
-  if (total) {
-    alert(`Общая сумма чисел равна ${total}`);
-  }
-}
+alert(`Общая сумма чисел равна ${total}`);
